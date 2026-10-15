@@ -1,0 +1,5 @@
+from precios import precio_final
+def test_con_descuento():
+    assert precio_final(100, 20) == 20
+def test_sin_descuento():
+    assert precio_final(50) == 50
